@@ -20,7 +20,7 @@
 2. Stack
 3. Queue
 4. Linked List
-<details>
+</details>
 
 ---
 
@@ -47,4 +47,6 @@
 <summary>JS Coding</summary>
 
 ## JS Coding
-<details>
+</details>
+
+---
