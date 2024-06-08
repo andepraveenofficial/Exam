@@ -20,7 +20,13 @@
     * Sorting
         - Bubble Sort
         - Insertion Sort
+    * Searching
+        - Linear Search
+        - Binary Search    
 2. Stack
+    * Problems
+        - find maxValue & minValue
+        - check valid parentheses
 3. Queue
 4. Linked List
 </details>
