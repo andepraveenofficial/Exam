@@ -17,6 +17,9 @@
 
 ## DSA
 1. Arrays
+    * Sorting
+        - Bubble Sort
+        - Insertion Sort
 2. Stack
 3. Queue
 4. Linked List
