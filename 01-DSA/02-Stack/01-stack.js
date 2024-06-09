@@ -9,7 +9,7 @@ Methods:
     * size()
     * isEmpty()
     * peek() -> Peeks at the top item of the stack without removing it
-    * pop() -> Removes at the top element of the stack
+    * pop() -> Removes at the top item of the stack
 */
 
 
@@ -19,7 +19,7 @@ class Stack{
     }
 
     push(item){
-        this.items.push(item)
+        this.display().push(item)
     }
 
     display(){
@@ -27,7 +27,7 @@ class Stack{
     }
 
     size(){
-        return this.items.length
+        return this.display().length
     }
 
     isEmpty(){
@@ -40,7 +40,7 @@ class Stack{
             return null
         }
         else{
-            const topItem = this.items[this.size()-1]
+            const topItem = this.display()[this.size()-1]
             return topItem;
         }
     }
@@ -50,7 +50,7 @@ class Stack{
             return null
         }
         else{
-            let poppedItem = this.items.pop()
+            let poppedItem = this.display().pop()
             return poppedItem
         }
     }

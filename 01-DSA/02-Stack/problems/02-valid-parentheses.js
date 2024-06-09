@@ -11,8 +11,6 @@ Methods :
     * peek()
     * pop()
 
-Approach :
-
 */
 
 class Stack{
@@ -21,7 +19,7 @@ class Stack{
     }
 
     push(item){
-        this.items.push(item)
+        this.display().push(item)
     }
 
     display(){
@@ -29,7 +27,7 @@ class Stack{
     }
 
     size(){
-        return this.items.length
+        return this.display().length
     }
 
     isEmpty(){
@@ -41,7 +39,7 @@ class Stack{
             return null
         }
         else{
-            const topItem = this.items[this.size() - 1]
+            const topItem = this.display()[this.size() - 1]
             return topItem
         }
     }
@@ -51,7 +49,7 @@ class Stack{
             return null
         }
         else{
-            const poppedItem = this.items.pop()
+            const poppedItem = this.display().pop()
             return poppedItem;
         }
     }

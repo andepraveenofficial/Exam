@@ -28,8 +28,8 @@ class Stack{
             this.minValueIndex = 0;
         }
         else{
-         const maxValue = this.items[this.maxValueIndex].value
-         const minValue = this.items[this.minValueIndex].value
+         const maxValue = this.display()[this.maxValueIndex].value
+         const minValue = this.display()[this.minValueIndex].value
         //  console.log(maxValue, minValue)
 
          if(item >= maxValue){
@@ -54,7 +54,7 @@ class Stack{
     }
 
     size(){
-        return this.items.length
+        return this.display().length
     }
 
     isEmpty(){
@@ -66,7 +66,7 @@ class Stack{
             return null
         }
         else{
-            const topItem = this.items[this.size() - 1]
+            const topItem = this.display()[this.size() - 1]
             return topItem
         }
         
@@ -77,7 +77,7 @@ class Stack{
             return null
         }
         else{
-            const maxValue = this.items[this.peek().maxValueIndex].value;
+            const maxValue = this.display()[this.peek().maxValueIndex].value;
             return maxValue
         }
     }
@@ -87,7 +87,7 @@ class Stack{
             return null
         }
         else{
-            const minValue = this.items[this.peek().minValueIndex].value;
+            const minValue = this.display()[this.peek().minValueIndex].value;
             return minValue
         }
     }
