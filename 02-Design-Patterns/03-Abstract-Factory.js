@@ -1,9 +1,10 @@
 // Abstract Factory
 
 /*
-Design Pattern : Abstract Factory
+Design Pattern : Abstract Factory -> Factories of Factory
 
 Every Product has own Factory
+* Create the families 
 */
 
 
