@@ -72,7 +72,6 @@ class LinkedList{
 
         return prev
     }
-
 }
 
 // Instance

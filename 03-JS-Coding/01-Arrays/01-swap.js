@@ -18,6 +18,6 @@ const array = [1,2,3,4,5];
 console.log(array);  // follow the semi colon
 
 [array[2],  array[3]] = [array[3], array[2]];
-console.log(array);
+console.log(array);  // [ 1, 2, 4, 3, 5 ]
 
 console.log("---------------");

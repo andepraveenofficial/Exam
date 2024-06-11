@@ -12,7 +12,6 @@ Methods:
     * pop() -> Removes at the top item of the stack
 */
 
-
 class Stack{
     constructor(){
         this.items = []

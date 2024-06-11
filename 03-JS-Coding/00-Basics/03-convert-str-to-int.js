@@ -21,7 +21,7 @@ for (let i=0; i<str.length; i++){
     // console.log(num)
 }
 
-console.log(num, typeof num)
+console.log(num, typeof num);
 
 
 

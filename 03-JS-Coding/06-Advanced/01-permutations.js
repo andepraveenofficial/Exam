@@ -17,5 +17,3 @@ const str = "abcd";
 console.log(str);
 
 console.log("-----------")
-
-
